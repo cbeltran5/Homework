@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08D770E51A4E443000B08273 /* HomeworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D770E41A4E443000B08273 /* HomeworkCell.swift */; };
+		08D770E71A4E461B00B08273 /* HomeworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D770E61A4E461B00B08273 /* HomeworkModel.swift */; };
 		08ED78751A4E3B0A00EACB4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ED78741A4E3B0A00EACB4E /* AppDelegate.swift */; };
 		08ED78781A4E3B0A00EACB4E /* Homework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08ED78761A4E3B0A00EACB4E /* Homework.xcdatamodeld */; };
 		08ED787A1A4E3B0A00EACB4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ED78791A4E3B0A00EACB4E /* ViewController.swift */; };
@@ -14,6 +16,7 @@
 		08ED787F1A4E3B0A00EACB4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08ED787E1A4E3B0A00EACB4E /* Images.xcassets */; };
 		08ED78821A4E3B0A00EACB4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08ED78801A4E3B0A00EACB4E /* LaunchScreen.xib */; };
 		08ED788E1A4E3B0A00EACB4E /* HomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ED788D1A4E3B0A00EACB4E /* HomeworkTests.swift */; };
+		08ED78981A4E3C3000EACB4E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ED78971A4E3C3000EACB4E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08D770E41A4E443000B08273 /* HomeworkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkCell.swift; sourceTree = "<group>"; };
+		08D770E61A4E461B00B08273 /* HomeworkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkModel.swift; sourceTree = "<group>"; };
 		08ED786F1A4E3B0A00EACB4E /* Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08ED78731A4E3B0A00EACB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08ED78741A4E3B0A00EACB4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +43,7 @@
 		08ED78871A4E3B0A00EACB4E /* HomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08ED788C1A4E3B0A00EACB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08ED788D1A4E3B0A00EACB4E /* HomeworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkTests.swift; sourceTree = "<group>"; };
+		08ED78971A4E3C3000EACB4E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 			children = (
 				08ED78741A4E3B0A00EACB4E /* AppDelegate.swift */,
 				08ED78791A4E3B0A00EACB4E /* ViewController.swift */,
+				08ED78971A4E3C3000EACB4E /* DetailViewController.swift */,
+				08D770E41A4E443000B08273 /* HomeworkCell.swift */,
+				08D770E61A4E461B00B08273 /* HomeworkModel.swift */,
 				08ED787B1A4E3B0A00EACB4E /* Main.storyboard */,
 				08ED787E1A4E3B0A00EACB4E /* Images.xcassets */,
 				08ED78801A4E3B0A00EACB4E /* LaunchScreen.xib */,
@@ -215,9 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D770E51A4E443000B08273 /* HomeworkCell.swift in Sources */,
 				08ED787A1A4E3B0A00EACB4E /* ViewController.swift in Sources */,
 				08ED78751A4E3B0A00EACB4E /* AppDelegate.swift in Sources */,
 				08ED78781A4E3B0A00EACB4E /* Homework.xcdatamodeld in Sources */,
+				08ED78981A4E3C3000EACB4E /* DetailViewController.swift in Sources */,
+				08D770E71A4E461B00B08273 /* HomeworkModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +423,7 @@
 				08ED78931A4E3B0A00EACB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08ED78941A4E3B0A00EACB4E /* Build configuration list for PBXNativeTarget "HomeworkTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +432,7 @@
 				08ED78961A4E3B0A00EACB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
